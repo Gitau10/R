@@ -1,0 +1,22 @@
+---
+title: "bank account prediction"
+author: "RVivo!"
+date: '2022-07-09'
+output: html_document
+---
+
+```{r}
+library(tidymodels)
+library(tidyverse)
+```
+
+```{r}
+library(readr)
+Train <- read_csv("data/Train.csv")
+```
+
+
+```{r}
+View(Train)
+```
+
